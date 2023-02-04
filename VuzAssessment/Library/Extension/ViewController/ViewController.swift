@@ -2,18 +2,19 @@
 //  ViewController.swift
 //  VuzAssessment
 //
-//  Created by Krishna Venkatramani on 03/02/2023.
+//  Created by Krishna Venkatramani on 04/02/2023.
 //
 
+import Foundation
 import UIKit
 
 class ViewController: UIViewController {
-
+    
+    //MARK: - Overriden Methods
+    
     override func viewDidLoad() {
         super.viewDidLoad()
-        // Do any additional setup after loading the view.
+        setupStandardNavBarAppearance()
     }
-
-
+    
 }
-

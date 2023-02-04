@@ -7,15 +7,49 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		43E34203FF5D7E6A48A4271B /* Pods_VuzAssessment.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 4588AE87699A5673F335676E /* Pods_VuzAssessment.framework */; };
+		5A5D481A6F8242EFB6B87AB6 /* Pods_VuzAssessmentTests.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 282F90DCF1146113D903A6B6 /* Pods_VuzAssessmentTests.framework */; };
+		C8B14D6FDFCC7E97FCEB3DC3 /* Pods_VuzAssessment_VuzAssessmentUITests.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 0555F8372EE3CCF41916C3F7 /* Pods_VuzAssessment_VuzAssessmentUITests.framework */; };
 		EF0451D0298D419000B948C0 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = EF0451CF298D419000B948C0 /* AppDelegate.swift */; };
 		EF0451D2298D419000B948C0 /* SceneDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = EF0451D1298D419000B948C0 /* SceneDelegate.swift */; };
-		EF0451D4298D419000B948C0 /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = EF0451D3298D419000B948C0 /* ViewController.swift */; };
-		EF0451D7298D419000B948C0 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = EF0451D5298D419000B948C0 /* Main.storyboard */; };
+		EF0451D4298D419000B948C0 /* HomeViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = EF0451D3298D419000B948C0 /* HomeViewController.swift */; };
 		EF0451D9298D419100B948C0 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = EF0451D8298D419100B948C0 /* Assets.xcassets */; };
 		EF0451DC298D419100B948C0 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = EF0451DA298D419100B948C0 /* LaunchScreen.storyboard */; };
 		EF0451E7298D419100B948C0 /* VuzAssessmentTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = EF0451E6298D419100B948C0 /* VuzAssessmentTests.swift */; };
 		EF0451F1298D419100B948C0 /* VuzAssessmentUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = EF0451F0298D419100B948C0 /* VuzAssessmentUITests.swift */; };
 		EF0451F3298D419100B948C0 /* VuzAssessmentUITestsLaunchTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = EF0451F2298D419100B948C0 /* VuzAssessmentUITestsLaunchTests.swift */; };
+		EF045201298D426700B948C0 /* ViewHeirachy.swift in Sources */ = {isa = PBXBuildFile; fileRef = EF045200298D426700B948C0 /* ViewHeirachy.swift */; };
+		EF045203298D429E00B948C0 /* Insets.swift in Sources */ = {isa = PBXBuildFile; fileRef = EF045202298D429E00B948C0 /* Insets.swift */; };
+		EF045206298D454300B948C0 /* TableCellProvider.swift in Sources */ = {isa = PBXBuildFile; fileRef = EF045205298D454300B948C0 /* TableCellProvider.swift */; };
+		EF045208298D4B3400B948C0 /* TableViewExtension.swift in Sources */ = {isa = PBXBuildFile; fileRef = EF045207298D4B3400B948C0 /* TableViewExtension.swift */; };
+		EF04520A298D4D1800B948C0 /* ActionProvider.swift in Sources */ = {isa = PBXBuildFile; fileRef = EF045209298D4D1800B948C0 /* ActionProvider.swift */; };
+		EF04520C298D4DC500B948C0 /* TableSection.swift in Sources */ = {isa = PBXBuildFile; fileRef = EF04520B298D4DC500B948C0 /* TableSection.swift */; };
+		EFA98040298D567B001E5696 /* HomeViewModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = EFA9803F298D567B001E5696 /* HomeViewModel.swift */; };
+		EFA98043298D56EB001E5696 /* URLRequest.swift in Sources */ = {isa = PBXBuildFile; fileRef = EFA98042298D56EB001E5696 /* URLRequest.swift */; };
+		EFA98046298D59D8001E5696 /* Endpoint.swift in Sources */ = {isa = PBXBuildFile; fileRef = EFA98045298D59D8001E5696 /* Endpoint.swift */; };
+		EFA98049298D5AF1001E5696 /* PixabayImageResult.swift in Sources */ = {isa = PBXBuildFile; fileRef = EFA98048298D5AF1001E5696 /* PixabayImageResult.swift */; };
+		EFA9804D298D5D34001E5696 /* PixabayEndpoints.swift in Sources */ = {isa = PBXBuildFile; fileRef = EFA9804C298D5D34001E5696 /* PixabayEndpoints.swift */; };
+		EFA9804F298D5F3F001E5696 /* UIImage+URL.swift in Sources */ = {isa = PBXBuildFile; fileRef = EFA9804E298D5F3F001E5696 /* UIImage+URL.swift */; };
+		EFA98052298D60D6001E5696 /* UIImage+Cache.swift in Sources */ = {isa = PBXBuildFile; fileRef = EFA98051298D60D6001E5696 /* UIImage+Cache.swift */; };
+		EFA98054298D62C7001E5696 /* ImageCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = EFA98053298D62C7001E5696 /* ImageCell.swift */; };
+		EFA98056298D64A3001E5696 /* UIImageView+UIImage.swift in Sources */ = {isa = PBXBuildFile; fileRef = EFA98055298D64A3001E5696 /* UIImageView+UIImage.swift */; };
+		EFA98058298D656E001E5696 /* ImageServiceInterface.swift in Sources */ = {isa = PBXBuildFile; fileRef = EFA98057298D656E001E5696 /* ImageServiceInterface.swift */; };
+		EFA9805A298D65B5001E5696 /* PixabayService.swift in Sources */ = {isa = PBXBuildFile; fileRef = EFA98059298D65B5001E5696 /* PixabayService.swift */; };
+		EFA9805D298D6B3E001E5696 /* ViewHelpers.swift in Sources */ = {isa = PBXBuildFile; fileRef = EFA9805C298D6B3E001E5696 /* ViewHelpers.swift */; };
+		EFA9805F298D8DD2001E5696 /* UIImageView.swift in Sources */ = {isa = PBXBuildFile; fileRef = EFA9805E298D8DD2001E5696 /* UIImageView.swift */; };
+		EFA98061298D8E6E001E5696 /* CGFloat.swift in Sources */ = {isa = PBXBuildFile; fileRef = EFA98060298D8E6E001E5696 /* CGFloat.swift */; };
+		EFA98064298D8E9D001E5696 /* CGRect.swift in Sources */ = {isa = PBXBuildFile; fileRef = EFA98063298D8E9D001E5696 /* CGRect.swift */; };
+		EFA98067298D91AE001E5696 /* ImageCell.xib in Resources */ = {isa = PBXBuildFile; fileRef = EFA98066298D91AE001E5696 /* ImageCell.xib */; };
+		EFA9806A298D9A15001E5696 /* ImageDetailViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = EFA98069298D9A15001E5696 /* ImageDetailViewController.swift */; };
+		EFA9806C298D9A97001E5696 /* ImageDetailViewModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = EFA9806B298D9A97001E5696 /* ImageDetailViewModel.swift */; };
+		EFA9806E298D9B1D001E5696 /* LargeImageCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = EFA9806D298D9B1D001E5696 /* LargeImageCell.swift */; };
+		EFA98070298D9BA8001E5696 /* InfoCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = EFA9806F298D9BA8001E5696 /* InfoCell.swift */; };
+		EFA98077298E34F2001E5696 /* InfoCell.xib in Resources */ = {isa = PBXBuildFile; fileRef = EFA98076298E34F2001E5696 /* InfoCell.xib */; };
+		EFA9807E298E37BA001E5696 /* LargeImageCell.xib in Resources */ = {isa = PBXBuildFile; fileRef = EFA9807D298E37BA001E5696 /* LargeImageCell.xib */; };
+		EFA98081298E3CA0001E5696 /* ImageCatalogue.swift in Sources */ = {isa = PBXBuildFile; fileRef = EFA98080298E3CA0001E5696 /* ImageCatalogue.swift */; };
+		EFA98084298E4151001E5696 /* ViewController+NavBar.swift in Sources */ = {isa = PBXBuildFile; fileRef = EFA98083298E4151001E5696 /* ViewController+NavBar.swift */; };
+		EFA98086298E4995001E5696 /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = EFA98085298E4995001E5696 /* ViewController.swift */; };
+		EFA98088298E49D4001E5696 /* ViewModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = EFA98087298E49D4001E5696 /* ViewModel.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -36,11 +70,18 @@
 /* End PBXContainerItemProxy section */
 
 /* Begin PBXFileReference section */
+		03C171FB893CD04DBFCC539F /* Pods-VuzAssessment-VuzAssessmentUITests.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-VuzAssessment-VuzAssessmentUITests.release.xcconfig"; path = "Target Support Files/Pods-VuzAssessment-VuzAssessmentUITests/Pods-VuzAssessment-VuzAssessmentUITests.release.xcconfig"; sourceTree = "<group>"; };
+		0555F8372EE3CCF41916C3F7 /* Pods_VuzAssessment_VuzAssessmentUITests.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_VuzAssessment_VuzAssessmentUITests.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		282F90DCF1146113D903A6B6 /* Pods_VuzAssessmentTests.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_VuzAssessmentTests.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		4588AE87699A5673F335676E /* Pods_VuzAssessment.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_VuzAssessment.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		615C7CCF0A817A82CD6DC042 /* Pods-VuzAssessment.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-VuzAssessment.release.xcconfig"; path = "Target Support Files/Pods-VuzAssessment/Pods-VuzAssessment.release.xcconfig"; sourceTree = "<group>"; };
+		739FA426F534E24D81D0E8DA /* Pods-VuzAssessmentTests.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-VuzAssessmentTests.debug.xcconfig"; path = "Target Support Files/Pods-VuzAssessmentTests/Pods-VuzAssessmentTests.debug.xcconfig"; sourceTree = "<group>"; };
+		7F07F1062CDF0A867D5DDA40 /* Pods-VuzAssessment.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-VuzAssessment.debug.xcconfig"; path = "Target Support Files/Pods-VuzAssessment/Pods-VuzAssessment.debug.xcconfig"; sourceTree = "<group>"; };
+		7F66EB5312ED6F679F9996F6 /* Pods-VuzAssessmentTests.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-VuzAssessmentTests.release.xcconfig"; path = "Target Support Files/Pods-VuzAssessmentTests/Pods-VuzAssessmentTests.release.xcconfig"; sourceTree = "<group>"; };
 		EF0451CC298D419000B948C0 /* VuzAssessment.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = VuzAssessment.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		EF0451CF298D419000B948C0 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
 		EF0451D1298D419000B948C0 /* SceneDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SceneDelegate.swift; sourceTree = "<group>"; };
-		EF0451D3298D419000B948C0 /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
-		EF0451D6298D419000B948C0 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
+		EF0451D3298D419000B948C0 /* HomeViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = HomeViewController.swift; sourceTree = "<group>"; };
 		EF0451D8298D419100B948C0 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		EF0451DB298D419100B948C0 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
 		EF0451DD298D419100B948C0 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
@@ -49,6 +90,39 @@
 		EF0451EC298D419100B948C0 /* VuzAssessmentUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = VuzAssessmentUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 		EF0451F0298D419100B948C0 /* VuzAssessmentUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = VuzAssessmentUITests.swift; sourceTree = "<group>"; };
 		EF0451F2298D419100B948C0 /* VuzAssessmentUITestsLaunchTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = VuzAssessmentUITestsLaunchTests.swift; sourceTree = "<group>"; };
+		EF045200298D426700B948C0 /* ViewHeirachy.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewHeirachy.swift; sourceTree = "<group>"; };
+		EF045202298D429E00B948C0 /* Insets.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Insets.swift; sourceTree = "<group>"; };
+		EF045205298D454300B948C0 /* TableCellProvider.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TableCellProvider.swift; sourceTree = "<group>"; };
+		EF045207298D4B3400B948C0 /* TableViewExtension.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TableViewExtension.swift; sourceTree = "<group>"; };
+		EF045209298D4D1800B948C0 /* ActionProvider.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ActionProvider.swift; sourceTree = "<group>"; };
+		EF04520B298D4DC500B948C0 /* TableSection.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TableSection.swift; sourceTree = "<group>"; };
+		EFA9803F298D567B001E5696 /* HomeViewModel.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = HomeViewModel.swift; sourceTree = "<group>"; };
+		EFA98042298D56EB001E5696 /* URLRequest.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = URLRequest.swift; sourceTree = "<group>"; };
+		EFA98045298D59D8001E5696 /* Endpoint.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Endpoint.swift; sourceTree = "<group>"; };
+		EFA98048298D5AF1001E5696 /* PixabayImageResult.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = PixabayImageResult.swift; sourceTree = "<group>"; };
+		EFA9804C298D5D34001E5696 /* PixabayEndpoints.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = PixabayEndpoints.swift; sourceTree = "<group>"; };
+		EFA9804E298D5F3F001E5696 /* UIImage+URL.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "UIImage+URL.swift"; sourceTree = "<group>"; };
+		EFA98051298D60D6001E5696 /* UIImage+Cache.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "UIImage+Cache.swift"; sourceTree = "<group>"; };
+		EFA98053298D62C7001E5696 /* ImageCell.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ImageCell.swift; sourceTree = "<group>"; };
+		EFA98055298D64A3001E5696 /* UIImageView+UIImage.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "UIImageView+UIImage.swift"; sourceTree = "<group>"; };
+		EFA98057298D656E001E5696 /* ImageServiceInterface.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ImageServiceInterface.swift; sourceTree = "<group>"; };
+		EFA98059298D65B5001E5696 /* PixabayService.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = PixabayService.swift; sourceTree = "<group>"; };
+		EFA9805C298D6B3E001E5696 /* ViewHelpers.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewHelpers.swift; sourceTree = "<group>"; };
+		EFA9805E298D8DD2001E5696 /* UIImageView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = UIImageView.swift; sourceTree = "<group>"; };
+		EFA98060298D8E6E001E5696 /* CGFloat.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CGFloat.swift; sourceTree = "<group>"; };
+		EFA98063298D8E9D001E5696 /* CGRect.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CGRect.swift; sourceTree = "<group>"; };
+		EFA98066298D91AE001E5696 /* ImageCell.xib */ = {isa = PBXFileReference; lastKnownFileType = file.xib; path = ImageCell.xib; sourceTree = "<group>"; };
+		EFA98069298D9A15001E5696 /* ImageDetailViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ImageDetailViewController.swift; sourceTree = "<group>"; };
+		EFA9806B298D9A97001E5696 /* ImageDetailViewModel.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ImageDetailViewModel.swift; sourceTree = "<group>"; };
+		EFA9806D298D9B1D001E5696 /* LargeImageCell.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = LargeImageCell.swift; sourceTree = "<group>"; };
+		EFA9806F298D9BA8001E5696 /* InfoCell.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = InfoCell.swift; sourceTree = "<group>"; };
+		EFA98076298E34F2001E5696 /* InfoCell.xib */ = {isa = PBXFileReference; lastKnownFileType = file.xib; path = InfoCell.xib; sourceTree = "<group>"; };
+		EFA9807D298E37BA001E5696 /* LargeImageCell.xib */ = {isa = PBXFileReference; lastKnownFileType = file.xib; path = LargeImageCell.xib; sourceTree = "<group>"; };
+		EFA98080298E3CA0001E5696 /* ImageCatalogue.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ImageCatalogue.swift; sourceTree = "<group>"; };
+		EFA98083298E4151001E5696 /* ViewController+NavBar.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "ViewController+NavBar.swift"; sourceTree = "<group>"; };
+		EFA98085298E4995001E5696 /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
+		EFA98087298E49D4001E5696 /* ViewModel.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewModel.swift; sourceTree = "<group>"; };
+		F9E35BDB7A1378D426F18449 /* Pods-VuzAssessment-VuzAssessmentUITests.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-VuzAssessment-VuzAssessmentUITests.debug.xcconfig"; path = "Target Support Files/Pods-VuzAssessment-VuzAssessmentUITests/Pods-VuzAssessment-VuzAssessmentUITests.debug.xcconfig"; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -56,6 +130,7 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				43E34203FF5D7E6A48A4271B /* Pods_VuzAssessment.framework in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -63,6 +138,7 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				5A5D481A6F8242EFB6B87AB6 /* Pods_VuzAssessmentTests.framework in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -70,12 +146,36 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				C8B14D6FDFCC7E97FCEB3DC3 /* Pods_VuzAssessment_VuzAssessmentUITests.framework in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
 /* End PBXFrameworksBuildPhase section */
 
 /* Begin PBXGroup section */
+		6D60DBE427E279A7BD3A18A1 /* Pods */ = {
+			isa = PBXGroup;
+			children = (
+				7F07F1062CDF0A867D5DDA40 /* Pods-VuzAssessment.debug.xcconfig */,
+				615C7CCF0A817A82CD6DC042 /* Pods-VuzAssessment.release.xcconfig */,
+				F9E35BDB7A1378D426F18449 /* Pods-VuzAssessment-VuzAssessmentUITests.debug.xcconfig */,
+				03C171FB893CD04DBFCC539F /* Pods-VuzAssessment-VuzAssessmentUITests.release.xcconfig */,
+				739FA426F534E24D81D0E8DA /* Pods-VuzAssessmentTests.debug.xcconfig */,
+				7F66EB5312ED6F679F9996F6 /* Pods-VuzAssessmentTests.release.xcconfig */,
+			);
+			path = Pods;
+			sourceTree = "<group>";
+		};
+		D7768B570974232C7F646889 /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				4588AE87699A5673F335676E /* Pods_VuzAssessment.framework */,
+				0555F8372EE3CCF41916C3F7 /* Pods_VuzAssessment_VuzAssessmentUITests.framework */,
+				282F90DCF1146113D903A6B6 /* Pods_VuzAssessmentTests.framework */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
 		EF0451C3298D419000B948C0 = {
 			isa = PBXGroup;
 			children = (
@@ -83,6 +183,8 @@
 				EF0451E5298D419100B948C0 /* VuzAssessmentTests */,
 				EF0451EF298D419100B948C0 /* VuzAssessmentUITests */,
 				EF0451CD298D419000B948C0 /* Products */,
+				6D60DBE427E279A7BD3A18A1 /* Pods */,
+				D7768B570974232C7F646889 /* Frameworks */,
 			);
 			sourceTree = "<group>";
 		};
@@ -99,10 +201,12 @@
 		EF0451CE298D419000B948C0 /* VuzAssessment */ = {
 			isa = PBXGroup;
 			children = (
+				EFA98078298E36F9001E5696 /* Library */,
+				EFA9804A298D5D22001E5696 /* Service */,
+				EFA98047298D5AD4001E5696 /* Model */,
+				EFA98041298D56CB001E5696 /* Views */,
 				EF0451CF298D419000B948C0 /* AppDelegate.swift */,
 				EF0451D1298D419000B948C0 /* SceneDelegate.swift */,
-				EF0451D3298D419000B948C0 /* ViewController.swift */,
-				EF0451D5298D419000B948C0 /* Main.storyboard */,
 				EF0451D8298D419100B948C0 /* Assets.xcassets */,
 				EF0451DA298D419100B948C0 /* LaunchScreen.storyboard */,
 				EF0451DD298D419100B948C0 /* Info.plist */,
@@ -127,6 +231,179 @@
 			path = VuzAssessmentUITests;
 			sourceTree = "<group>";
 		};
+		EF0451FF298D425300B948C0 /* Extension */ = {
+			isa = PBXGroup;
+			children = (
+				EFA98082298E4109001E5696 /* ViewController */,
+				EFA98062298D8E8F001E5696 /* Dimensions */,
+				EFA9805B298D6B35001E5696 /* View */,
+				EFA98050298D5F42001E5696 /* UIImage */,
+				EF045204298D44D900B948C0 /* TableExtension */,
+				EF045209298D4D1800B948C0 /* ActionProvider.swift */,
+				EFA98042298D56EB001E5696 /* URLRequest.swift */,
+				EFA98045298D59D8001E5696 /* Endpoint.swift */,
+			);
+			path = Extension;
+			sourceTree = "<group>";
+		};
+		EF045204298D44D900B948C0 /* TableExtension */ = {
+			isa = PBXGroup;
+			children = (
+				EF045205298D454300B948C0 /* TableCellProvider.swift */,
+				EF045207298D4B3400B948C0 /* TableViewExtension.swift */,
+				EF04520B298D4DC500B948C0 /* TableSection.swift */,
+			);
+			path = TableExtension;
+			sourceTree = "<group>";
+		};
+		EFA9803E298D5662001E5696 /* Home */ = {
+			isa = PBXGroup;
+			children = (
+				EF0451D3298D419000B948C0 /* HomeViewController.swift */,
+				EFA9803F298D567B001E5696 /* HomeViewModel.swift */,
+			);
+			path = Home;
+			sourceTree = "<group>";
+		};
+		EFA98041298D56CB001E5696 /* Views */ = {
+			isa = PBXGroup;
+			children = (
+				EFA98068298D9A06001E5696 /* ImageDetail */,
+				EFA9803E298D5662001E5696 /* Home */,
+			);
+			path = Views;
+			sourceTree = "<group>";
+		};
+		EFA98047298D5AD4001E5696 /* Model */ = {
+			isa = PBXGroup;
+			children = (
+				EFA98048298D5AF1001E5696 /* PixabayImageResult.swift */,
+			);
+			path = Model;
+			sourceTree = "<group>";
+		};
+		EFA9804A298D5D22001E5696 /* Service */ = {
+			isa = PBXGroup;
+			children = (
+				EFA9804B298D5D28001E5696 /* Pixabay */,
+			);
+			path = Service;
+			sourceTree = "<group>";
+		};
+		EFA9804B298D5D28001E5696 /* Pixabay */ = {
+			isa = PBXGroup;
+			children = (
+				EFA9804C298D5D34001E5696 /* PixabayEndpoints.swift */,
+				EFA98057298D656E001E5696 /* ImageServiceInterface.swift */,
+				EFA98059298D65B5001E5696 /* PixabayService.swift */,
+			);
+			path = Pixabay;
+			sourceTree = "<group>";
+		};
+		EFA98050298D5F42001E5696 /* UIImage */ = {
+			isa = PBXGroup;
+			children = (
+				EFA9804E298D5F3F001E5696 /* UIImage+URL.swift */,
+				EFA98051298D60D6001E5696 /* UIImage+Cache.swift */,
+				EFA98055298D64A3001E5696 /* UIImageView+UIImage.swift */,
+			);
+			path = UIImage;
+			sourceTree = "<group>";
+		};
+		EFA9805B298D6B35001E5696 /* View */ = {
+			isa = PBXGroup;
+			children = (
+				EF045200298D426700B948C0 /* ViewHeirachy.swift */,
+				EFA9805C298D6B3E001E5696 /* ViewHelpers.swift */,
+				EFA9805E298D8DD2001E5696 /* UIImageView.swift */,
+			);
+			path = View;
+			sourceTree = "<group>";
+		};
+		EFA98062298D8E8F001E5696 /* Dimensions */ = {
+			isa = PBXGroup;
+			children = (
+				EF045202298D429E00B948C0 /* Insets.swift */,
+				EFA98060298D8E6E001E5696 /* CGFloat.swift */,
+				EFA98063298D8E9D001E5696 /* CGRect.swift */,
+			);
+			path = Dimensions;
+			sourceTree = "<group>";
+		};
+		EFA98068298D9A06001E5696 /* ImageDetail */ = {
+			isa = PBXGroup;
+			children = (
+				EFA98069298D9A15001E5696 /* ImageDetailViewController.swift */,
+				EFA9806B298D9A97001E5696 /* ImageDetailViewModel.swift */,
+			);
+			path = ImageDetail;
+			sourceTree = "<group>";
+		};
+		EFA98078298E36F9001E5696 /* Library */ = {
+			isa = PBXGroup;
+			children = (
+				EFA9807F298E3C8C001E5696 /* Catalogue */,
+				EFA98079298E3720001E5696 /* Components */,
+				EF0451FF298D425300B948C0 /* Extension */,
+			);
+			path = Library;
+			sourceTree = "<group>";
+		};
+		EFA98079298E3720001E5696 /* Components */ = {
+			isa = PBXGroup;
+			children = (
+				EFA9807C298E37A2001E5696 /* LargeImageCell */,
+				EFA9807B298E373D001E5696 /* InfoCell */,
+				EFA9807A298E372F001E5696 /* ImageCell */,
+			);
+			path = Components;
+			sourceTree = "<group>";
+		};
+		EFA9807A298E372F001E5696 /* ImageCell */ = {
+			isa = PBXGroup;
+			children = (
+				EFA98066298D91AE001E5696 /* ImageCell.xib */,
+				EFA98053298D62C7001E5696 /* ImageCell.swift */,
+			);
+			path = ImageCell;
+			sourceTree = "<group>";
+		};
+		EFA9807B298E373D001E5696 /* InfoCell */ = {
+			isa = PBXGroup;
+			children = (
+				EFA9806F298D9BA8001E5696 /* InfoCell.swift */,
+				EFA98076298E34F2001E5696 /* InfoCell.xib */,
+			);
+			path = InfoCell;
+			sourceTree = "<group>";
+		};
+		EFA9807C298E37A2001E5696 /* LargeImageCell */ = {
+			isa = PBXGroup;
+			children = (
+				EFA9806D298D9B1D001E5696 /* LargeImageCell.swift */,
+				EFA9807D298E37BA001E5696 /* LargeImageCell.xib */,
+			);
+			path = LargeImageCell;
+			sourceTree = "<group>";
+		};
+		EFA9807F298E3C8C001E5696 /* Catalogue */ = {
+			isa = PBXGroup;
+			children = (
+				EFA98080298E3CA0001E5696 /* ImageCatalogue.swift */,
+			);
+			path = Catalogue;
+			sourceTree = "<group>";
+		};
+		EFA98082298E4109001E5696 /* ViewController */ = {
+			isa = PBXGroup;
+			children = (
+				EFA98083298E4151001E5696 /* ViewController+NavBar.swift */,
+				EFA98085298E4995001E5696 /* ViewController.swift */,
+				EFA98087298E49D4001E5696 /* ViewModel.swift */,
+			);
+			path = ViewController;
+			sourceTree = "<group>";
+		};
 /* End PBXGroup section */
 
 /* Begin PBXNativeTarget section */
@@ -134,9 +411,11 @@
 			isa = PBXNativeTarget;
 			buildConfigurationList = EF0451F6298D419100B948C0 /* Build configuration list for PBXNativeTarget "VuzAssessment" */;
 			buildPhases = (
+				84D9EEE7E97AD94F7048072D /* [CP] Check Pods Manifest.lock */,
 				EF0451C8298D419000B948C0 /* Sources */,
 				EF0451C9298D419000B948C0 /* Frameworks */,
 				EF0451CA298D419000B948C0 /* Resources */,
+				88669FC15A9EDC117C2C2C56 /* [CP] Embed Pods Frameworks */,
 			);
 			buildRules = (
 			);
@@ -151,6 +430,7 @@
 			isa = PBXNativeTarget;
 			buildConfigurationList = EF0451F9298D419100B948C0 /* Build configuration list for PBXNativeTarget "VuzAssessmentTests" */;
 			buildPhases = (
+				2BF5071683138C62A63BAFD5 /* [CP] Check Pods Manifest.lock */,
 				EF0451DE298D419100B948C0 /* Sources */,
 				EF0451DF298D419100B948C0 /* Frameworks */,
 				EF0451E0298D419100B948C0 /* Resources */,
@@ -169,9 +449,11 @@
 			isa = PBXNativeTarget;
 			buildConfigurationList = EF0451FC298D419100B948C0 /* Build configuration list for PBXNativeTarget "VuzAssessmentUITests" */;
 			buildPhases = (
+				3E0390888A7C04F660B86C69 /* [CP] Check Pods Manifest.lock */,
 				EF0451E8298D419100B948C0 /* Sources */,
 				EF0451E9298D419100B948C0 /* Frameworks */,
 				EF0451EA298D419100B948C0 /* Resources */,
+				0A09130D0B47390801FFF89D /* [CP] Embed Pods Frameworks */,
 			);
 			buildRules = (
 			);
@@ -231,9 +513,11 @@
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				EFA98067298D91AE001E5696 /* ImageCell.xib in Resources */,
+				EFA98077298E34F2001E5696 /* InfoCell.xib in Resources */,
 				EF0451DC298D419100B948C0 /* LaunchScreen.storyboard in Resources */,
 				EF0451D9298D419100B948C0 /* Assets.xcassets in Resources */,
-				EF0451D7298D419000B948C0 /* Main.storyboard in Resources */,
+				EFA9807E298E37BA001E5696 /* LargeImageCell.xib in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -253,13 +537,145 @@
 		};
 /* End PBXResourcesBuildPhase section */
 
+/* Begin PBXShellScriptBuildPhase section */
+		0A09130D0B47390801FFF89D /* [CP] Embed Pods Frameworks */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputFileListPaths = (
+				"${PODS_ROOT}/Target Support Files/Pods-VuzAssessment-VuzAssessmentUITests/Pods-VuzAssessment-VuzAssessmentUITests-frameworks-${CONFIGURATION}-input-files.xcfilelist",
+			);
+			name = "[CP] Embed Pods Frameworks";
+			outputFileListPaths = (
+				"${PODS_ROOT}/Target Support Files/Pods-VuzAssessment-VuzAssessmentUITests/Pods-VuzAssessment-VuzAssessmentUITests-frameworks-${CONFIGURATION}-output-files.xcfilelist",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${PODS_ROOT}/Target Support Files/Pods-VuzAssessment-VuzAssessmentUITests/Pods-VuzAssessment-VuzAssessmentUITests-frameworks.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+		2BF5071683138C62A63BAFD5 /* [CP] Check Pods Manifest.lock */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputFileListPaths = (
+			);
+			inputPaths = (
+				"${PODS_PODFILE_DIR_PATH}/Podfile.lock",
+				"${PODS_ROOT}/Manifest.lock",
+			);
+			name = "[CP] Check Pods Manifest.lock";
+			outputFileListPaths = (
+			);
+			outputPaths = (
+				"$(DERIVED_FILE_DIR)/Pods-VuzAssessmentTests-checkManifestLockResult.txt",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "diff \"${PODS_PODFILE_DIR_PATH}/Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [ $? != 0 ] ; then\n    # print error to STDERR\n    echo \"error: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\" >&2\n    exit 1\nfi\n# This output is used by Xcode 'outputs' to avoid re-running this script phase.\necho \"SUCCESS\" > \"${SCRIPT_OUTPUT_FILE_0}\"\n";
+			showEnvVarsInLog = 0;
+		};
+		3E0390888A7C04F660B86C69 /* [CP] Check Pods Manifest.lock */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputFileListPaths = (
+			);
+			inputPaths = (
+				"${PODS_PODFILE_DIR_PATH}/Podfile.lock",
+				"${PODS_ROOT}/Manifest.lock",
+			);
+			name = "[CP] Check Pods Manifest.lock";
+			outputFileListPaths = (
+			);
+			outputPaths = (
+				"$(DERIVED_FILE_DIR)/Pods-VuzAssessment-VuzAssessmentUITests-checkManifestLockResult.txt",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "diff \"${PODS_PODFILE_DIR_PATH}/Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [ $? != 0 ] ; then\n    # print error to STDERR\n    echo \"error: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\" >&2\n    exit 1\nfi\n# This output is used by Xcode 'outputs' to avoid re-running this script phase.\necho \"SUCCESS\" > \"${SCRIPT_OUTPUT_FILE_0}\"\n";
+			showEnvVarsInLog = 0;
+		};
+		84D9EEE7E97AD94F7048072D /* [CP] Check Pods Manifest.lock */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputFileListPaths = (
+			);
+			inputPaths = (
+				"${PODS_PODFILE_DIR_PATH}/Podfile.lock",
+				"${PODS_ROOT}/Manifest.lock",
+			);
+			name = "[CP] Check Pods Manifest.lock";
+			outputFileListPaths = (
+			);
+			outputPaths = (
+				"$(DERIVED_FILE_DIR)/Pods-VuzAssessment-checkManifestLockResult.txt",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "diff \"${PODS_PODFILE_DIR_PATH}/Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [ $? != 0 ] ; then\n    # print error to STDERR\n    echo \"error: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\" >&2\n    exit 1\nfi\n# This output is used by Xcode 'outputs' to avoid re-running this script phase.\necho \"SUCCESS\" > \"${SCRIPT_OUTPUT_FILE_0}\"\n";
+			showEnvVarsInLog = 0;
+		};
+		88669FC15A9EDC117C2C2C56 /* [CP] Embed Pods Frameworks */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputFileListPaths = (
+				"${PODS_ROOT}/Target Support Files/Pods-VuzAssessment/Pods-VuzAssessment-frameworks-${CONFIGURATION}-input-files.xcfilelist",
+			);
+			name = "[CP] Embed Pods Frameworks";
+			outputFileListPaths = (
+				"${PODS_ROOT}/Target Support Files/Pods-VuzAssessment/Pods-VuzAssessment-frameworks-${CONFIGURATION}-output-files.xcfilelist",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${PODS_ROOT}/Target Support Files/Pods-VuzAssessment/Pods-VuzAssessment-frameworks.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+/* End PBXShellScriptBuildPhase section */
+
 /* Begin PBXSourcesBuildPhase section */
 		EF0451C8298D419000B948C0 /* Sources */ = {
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				EF0451D4298D419000B948C0 /* ViewController.swift in Sources */,
+				EFA98058298D656E001E5696 /* ImageServiceInterface.swift in Sources */,
+				EF04520A298D4D1800B948C0 /* ActionProvider.swift in Sources */,
+				EF0451D4298D419000B948C0 /* HomeViewController.swift in Sources */,
+				EF045206298D454300B948C0 /* TableCellProvider.swift in Sources */,
+				EFA98040298D567B001E5696 /* HomeViewModel.swift in Sources */,
+				EFA9806E298D9B1D001E5696 /* LargeImageCell.swift in Sources */,
+				EFA9805D298D6B3E001E5696 /* ViewHelpers.swift in Sources */,
+				EFA9805F298D8DD2001E5696 /* UIImageView.swift in Sources */,
+				EFA98064298D8E9D001E5696 /* CGRect.swift in Sources */,
+				EFA98086298E4995001E5696 /* ViewController.swift in Sources */,
+				EF045201298D426700B948C0 /* ViewHeirachy.swift in Sources */,
+				EFA9805A298D65B5001E5696 /* PixabayService.swift in Sources */,
+				EF04520C298D4DC500B948C0 /* TableSection.swift in Sources */,
+				EFA98056298D64A3001E5696 /* UIImageView+UIImage.swift in Sources */,
+				EFA98070298D9BA8001E5696 /* InfoCell.swift in Sources */,
+				EFA98054298D62C7001E5696 /* ImageCell.swift in Sources */,
+				EFA98081298E3CA0001E5696 /* ImageCatalogue.swift in Sources */,
+				EFA9804F298D5F3F001E5696 /* UIImage+URL.swift in Sources */,
+				EFA9806A298D9A15001E5696 /* ImageDetailViewController.swift in Sources */,
+				EFA98061298D8E6E001E5696 /* CGFloat.swift in Sources */,
+				EF045208298D4B3400B948C0 /* TableViewExtension.swift in Sources */,
+				EFA98084298E4151001E5696 /* ViewController+NavBar.swift in Sources */,
+				EFA98088298E49D4001E5696 /* ViewModel.swift in Sources */,
+				EFA98049298D5AF1001E5696 /* PixabayImageResult.swift in Sources */,
+				EFA98043298D56EB001E5696 /* URLRequest.swift in Sources */,
+				EFA9806C298D9A97001E5696 /* ImageDetailViewModel.swift in Sources */,
+				EFA9804D298D5D34001E5696 /* PixabayEndpoints.swift in Sources */,
+				EF045203298D429E00B948C0 /* Insets.swift in Sources */,
 				EF0451D0298D419000B948C0 /* AppDelegate.swift in Sources */,
+				EFA98046298D59D8001E5696 /* Endpoint.swift in Sources */,
+				EFA98052298D60D6001E5696 /* UIImage+Cache.swift in Sources */,
 				EF0451D2298D419000B948C0 /* SceneDelegate.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
@@ -297,14 +713,6 @@
 /* End PBXTargetDependency section */
 
 /* Begin PBXVariantGroup section */
-		EF0451D5298D419000B948C0 /* Main.storyboard */ = {
-			isa = PBXVariantGroup;
-			children = (
-				EF0451D6298D419000B948C0 /* Base */,
-			);
-			name = Main.storyboard;
-			sourceTree = "<group>";
-		};
 		EF0451DA298D419100B948C0 /* LaunchScreen.storyboard */ = {
 			isa = PBXVariantGroup;
 			children = (
@@ -432,6 +840,7 @@
 		};
 		EF0451F7298D419100B948C0 /* Debug */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = 7F07F1062CDF0A867D5DDA40 /* Pods-VuzAssessment.debug.xcconfig */;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
@@ -442,7 +851,6 @@
 				INFOPLIST_FILE = VuzAssessment/Info.plist;
 				INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents = YES;
 				INFOPLIST_KEY_UILaunchStoryboardName = LaunchScreen;
-				INFOPLIST_KEY_UIMainStoryboardFile = Main;
 				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPad = "UIInterfaceOrientationPortrait UIInterfaceOrientationPortraitUpsideDown UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
 				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPhone = "UIInterfaceOrientationPortrait UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
 				LD_RUNPATH_SEARCH_PATHS = (
@@ -460,6 +868,7 @@
 		};
 		EF0451F8298D419100B948C0 /* Release */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = 615C7CCF0A817A82CD6DC042 /* Pods-VuzAssessment.release.xcconfig */;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
@@ -470,7 +879,6 @@
 				INFOPLIST_FILE = VuzAssessment/Info.plist;
 				INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents = YES;
 				INFOPLIST_KEY_UILaunchStoryboardName = LaunchScreen;
-				INFOPLIST_KEY_UIMainStoryboardFile = Main;
 				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPad = "UIInterfaceOrientationPortrait UIInterfaceOrientationPortraitUpsideDown UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
 				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPhone = "UIInterfaceOrientationPortrait UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
 				LD_RUNPATH_SEARCH_PATHS = (
@@ -488,6 +896,7 @@
 		};
 		EF0451FA298D419100B948C0 /* Debug */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = 739FA426F534E24D81D0E8DA /* Pods-VuzAssessmentTests.debug.xcconfig */;
 			buildSettings = {
 				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
 				BUNDLE_LOADER = "$(TEST_HOST)";
@@ -508,6 +917,7 @@
 		};
 		EF0451FB298D419100B948C0 /* Release */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = 7F66EB5312ED6F679F9996F6 /* Pods-VuzAssessmentTests.release.xcconfig */;
 			buildSettings = {
 				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
 				BUNDLE_LOADER = "$(TEST_HOST)";
@@ -528,6 +938,7 @@
 		};
 		EF0451FD298D419100B948C0 /* Debug */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = F9E35BDB7A1378D426F18449 /* Pods-VuzAssessment-VuzAssessmentUITests.debug.xcconfig */;
 			buildSettings = {
 				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
 				CODE_SIGN_STYLE = Automatic;
@@ -546,6 +957,7 @@
 		};
 		EF0451FE298D419100B948C0 /* Release */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = 03C171FB893CD04DBFCC539F /* Pods-VuzAssessment-VuzAssessmentUITests.release.xcconfig */;
 			buildSettings = {
 				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
 				CODE_SIGN_STYLE = Automatic;
